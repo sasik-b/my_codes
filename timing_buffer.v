@@ -25,6 +25,8 @@ output logic e_up;            //enable to downstream
 );
 
 logic e_l;
+logic v_l;
+logic [31:0] d_l;
 
 
 
@@ -76,4 +78,5 @@ end
 assign v_down = v_l;
 assign d_down = d_l;
 assign e_up = e_l;
+
 endmodule
